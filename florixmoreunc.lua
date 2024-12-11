@@ -316,6 +316,7 @@ local ConsoleClone = nil
 -- functions
 local function identifymoreunc()
 	print("Powered By FloriX | .gg/getflora")
+end
 local function Descendants(tbl)
     local descendants = {}
     
