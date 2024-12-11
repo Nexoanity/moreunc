@@ -1,16 +1,7 @@
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "FloriX MoreUNC - Injected!", -- Required
-    Text = "FloriX UNC Adder has been injected!", -- Required
+    Text = "FloriX UNC Adder has been injected! .gg/getflora", -- Required
 })
---[[ hello very cool incognito / solara (mostly incognito because solara has most of these functions, just not all) script showcase!! 
-pls dont steal source code :( 
-also join https://discord.gg/gYhqMRBeZV because yes    
-]]
---[[
- math support update because math is kewl
- new update:
- table loop update!!
-]]
 if getgenv and getgenv().MoreUNC then return end
 
 -- Definitions
@@ -429,6 +420,9 @@ function Queue.new()
     local self = setmetatable({}, Queue)
     self.elements = {}
     return self
+end
+function identifymoreunc()
+	print("FloriX - Powered by FLORA!")
 end
 
 function Queue:Queue(element)
