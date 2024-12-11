@@ -314,6 +314,8 @@ local Fonts = { -- Drawing.Fonts
 local MessageColor = colors['WHITE']
 local ConsoleClone = nil
 -- functions
+local function identifymoreunc()
+	print("Powered By FloriX | .gg/getflora")
 local function Descendants(tbl)
     local descendants = {}
     
@@ -420,9 +422,6 @@ function Queue.new()
     local self = setmetatable({}, Queue)
     self.elements = {}
     return self
-end
-function identifymoreunc()
-	print("FloriX - Powered by FLORA!")
 end
 
 function Queue:Queue(element)
